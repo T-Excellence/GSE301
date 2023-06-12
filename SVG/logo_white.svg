@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 121.19 125.74">
+    <defs>
+        <style>
+            .cls-1, .cls-3{fill:none; }
+            .cls-1, .cls-2, .cls-3{stroke:#fff;stroke-linecap:round;}
+            .cls-1, .cls-2{stroke-miterlimit:10;stroke-width:2px;}
+            .cls-2{fill:#fff;}
+            .cls-3{stroke-linejoin:round;stroke-width:3px;}
+            .cls-4{fill:#fff;}
+        </style>
+    </defs>
+    <g id="Layer_1-2" >
+        <path class="cls-1" d="M112.15,122.72H4a3,3,0,0,1-2.64-4.28L54.88,11.32" />
+        <polyline class="cls-2" points="58.32 1 119.07 122.51 120.19 124.75"/>
+        <path class="cls-3" d="M62.2,24.12l41.49,83a3.39,3.39,0,0,1-3,4.9h-83a3.39,3.39,0,0,1-3-4.9l41.49-83A3.38,3.38,0,0,1,62.2,24.12Z"/>
+        <path class="cls-4"  d="M75.36,98.81A37.67,37.67,0,0,1,62.94,101c-6.12,0-11.16-1.56-15.12-5.34-3.48-3.36-5.64-8.76-5.64-15.06.06-12.06,8.34-20.88,21.9-20.88a25,25,0,0,1,10.08,1.86L72.9,65.87A21,21,0,0,0,64,64.13c-9.84,0-16.26,6.12-16.26,16.26s6.18,16.32,15.6,16.32c3.42,0,5.76-.48,7-1.08V83.57H62v-4.2H75.36Z"/>
+    </g>
+</svg>
+
+

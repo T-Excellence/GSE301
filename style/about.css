@@ -1,0 +1,150 @@
+@import "main.css";
+
+.line{
+    width: 100%;
+    margin: 8px 0;
+    border-bottom: 2px solid var(--secondary-color);
+}
+.line1{
+    margin: 16px 0;
+    border-bottom-width: 4px;
+}
+
+#main{
+    padding: 24px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+#main header{
+
+    min-width: 450px;
+    margin-right: 10%;
+}
+
+#main p{
+
+    padding: 24px;
+    margin-left: 10%;
+}
+
+#main header h3{
+    font-size: 10em;
+}
+section header{
+    width: fit-content;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.section{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    word-wrap: break-word;
+    padding: 28px;
+}
+#objective p{
+    text-align: justify;
+    text-indent: 24px;
+    line-height: 1.5em;
+}
+#objective header .line{
+    padding : 0 100px;
+}
+
+#objective div img{
+    width: 600px;
+    display: inline;
+    float: left;
+    padding: 8px;
+}
+
+
+.testimony_item{
+
+    border-radius: 5px;
+    width: 340px;
+    min-width: 340px;
+    height: 540px;
+    min-height: 500px;
+    margin: 4px;
+    color: var(--primary-color);
+    background-color: var(--text-color);
+
+
+}
+.testimony_item img{
+    width: 100%;
+    max-height: 180px;
+    border-radius: 4px;
+    z-index: -100;
+    object-fit: cover;
+    object-position: 50% 0%;
+    background-color: var(--secondary-color);
+
+}
+.testimony_item p{
+    padding: 12px;
+    text-align: justify;
+    text-indent: 24px;
+}
+
+.testimony_item .comma{
+
+    float: left;
+    display: flex;
+    margin: -40px 10px 0px 0;
+    border-radius: 100%;
+    width: 48px;
+    height: 48px;
+    z-index: 100;
+    line-height: 100%;
+    font-size: 3em;
+    text-align: center;
+    font-family: "Times New Roman", sans-serif;
+    justify-content: center;
+    align-items: center;
+    color: var(--text-color);
+    background-color: var(--primary-color);
+}
+
+.testimony_item div{
+    margin-top: 12px;
+    padding: 12px;
+    text-align: right;
+}
+.testimony_item div span{
+    display: block;
+    font-weight: bold;
+}
+
+#testimony_items{
+    display: flex;
+    scrollbar-width: none;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#review{
+    color: var(--secondary-color);
+    padding-right : 78px;
+    text-align: justify;
+    font-size: 2em;
+    padding-left: 16px;
+    border-left: 2px solid var(--secondary-color);
+
+}
+
+
+
+
+
+
+
+

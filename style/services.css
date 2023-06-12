@@ -1,0 +1,72 @@
+@import "main.css";
+
+#services{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+.service{
+
+    width: 390px;
+    height: 168px;
+    padding: 4px;
+    margin: 8px;
+    border-radius: 8px;
+    border: 1px solid var(--secondary-color);
+
+    transition-duration: 500ms;
+    background-color: transparent;
+    transition-timing-function: ease-in-out;
+    transition-property: background-color;
+    text-overflow: ellipsis;
+    overflow-y: clip;
+    text-align: justify;
+
+}
+
+.service:hover{
+
+    transition-duration: 500ms;
+    transition-property: background-color;
+    transition-timing-function: ease-in-out;
+    background-color: var(--secondary-color);
+}
+
+.service_logo{
+    height: 42px;
+    width: auto;
+    padding: 6px;
+    margin: 4px;
+    border-radius: 0px 0px 6px 6px;
+    background-color: var(--text-color);
+}
+
+.service_div1{
+    display: flex;
+    align-items: center;
+}
+
+.service .service_div1 h3{
+    padding: 4px;
+    font-size: 1.75em;
+}
+
+.service_div2{
+    display: flex;
+    align-items: center;
+}
+
+.service_icon{
+    height: 100px;
+    float: left;
+    right: -100px;
+}
+
+.service p{
+    padding:  0  4px 0 56px;
+}
+
+.c2{
+    fill: coral;
+}
